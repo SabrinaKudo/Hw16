@@ -1,0 +1,107 @@
+body{
+    background-color:white;
+}
+
+li{
+    display: inline;
+    padding-right: 200px; 
+    line-height: 20px;
+}
+
+nav{
+    position:fixed;
+}
+
+
+
+
+.colorBG {
+ /**background-color: #FA7268;**/  
+ background:linear-gradient(35deg,#FA7268, #868686);
+ height: 170px;
+ display: cover; 
+ opacity: 1; 
+
+
+
+}
+
+#title1 {
+    color: white;
+    font-family: Monsterrat, open-sans;
+    text-transform: uppercase;
+    padding:30px 100px 5px 50px;  
+    margin: auto; 
+/** add google font Montserrat & I need to span the title1**/
+}
+
+h1{
+    position:relative;
+}
+
+/** Animation for #title1**/
+
+h1 {
+    animation-name: floatTitle1;
+    animation-duration: 3s;
+}
+
+@keyframes floatTitle1 {
+0% {
+    top: 0px;
+   }
+50% {
+    top: 30px;
+    }
+100% {
+    top: 0px;
+     }
+}
+
+
+
+.navItem:hover{
+    color:#99DEDF;
+}
+
+.navList{
+    color:  white; /** #79eef8**/
+    text-transform: lowercase;
+    padding-left: 600px; 
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    background-color: hsla(0,0%,100%,0.25);
+    height: 50px;
+}
+
+
+li:hover{
+    transform: scale(3);
+}
+
+.bio{
+
+}
+
+#aboutMe{
+    color: #FA7268;
+    margin-left: 50px;
+}
+
+p{
+    margin-left: 100px;
+    width: 700px;
+}
+
+.miff{
+    width: 400px;
+    border-radius: 5%;
+    margin-left:50px;
+
+}
+
+footer{
+    background:linear-gradient(90deg, #99DEDF, grey);
+}
